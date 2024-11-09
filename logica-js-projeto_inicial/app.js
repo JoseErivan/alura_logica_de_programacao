@@ -7,4 +7,6 @@ if (chute == numeroSecreto) {
     alert("O número secreto é menor que o número informado.");
 } else {
     alert("O número secreto é maior que o número informado");
-}
+} 
+
+console.log("Hello, World!");
