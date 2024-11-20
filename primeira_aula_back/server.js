@@ -1,4 +1,9 @@
 import express from "express";
+
+import conectarAoBanco from "./src/config/db_config.js";
+
+await conectarAoBanco(process.env.STRING_CONEXAO);
+
 // Criação de um array de objetos para ser o nosso banco de dados.
 const posts = [
   {
